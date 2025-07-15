@@ -105,30 +105,20 @@
       margin-bottom: 20px;
     }
 
-    button {
+    a.btn-link {
+      display: inline-block;
       background-color: #00bbb9;
       color: white;
       padding: 12px 26px;
       font-weight: 700;
-      border: none;
       border-radius: 8px;
-      cursor: pointer;
-      transition: background 0.3s ease;
+      text-decoration: none;
       font-size: 1rem;
+      transition: background 0.3s ease;
     }
 
-    button:hover:not(:disabled) {
+    a.btn-link:hover {
       background-color: #009b98;
-    }
-
-    button.out-of-stock {
-      background-color: #ccc;
-      color: #888;
-      cursor: not-allowed;
-    }
-
-    .hidden {
-      display: none !important;
     }
 
     @media (max-width: 600px) {
@@ -162,23 +152,18 @@
       <span class="rtm">ARTIKEL</span> <span class="diasz">GHIYAS</span>
     </h1>
     <nav class="menu-header">
-      <a href="#uic-section" class="active">UIC</a>
-      <a href="#senjata-section">SENJATA</a>
-      <a href="#item-section">ITEM</a>
-      <a href="#paket-section">PAKET</a>
+      <a href="#artikel-section" class="active">UIC</a>
     </nav>
   </header>
 
   <main>
-<div class="product-list hidden" id="artikel-section">
-  <div class="product-card">
-    <h2>Artikel Tentang IP ADDRES</h2>
-    <button id="artikel1">Lihat</button>
-    <p id="artikel-1"></p>
-  </div>
-</div>
+    <div class="product-list" id="artikel-section">
+      <div class="product-card">
+        <h2>Artikel Tentang IP ADDRES</h2>
+        <a href="artikel1.html" class="btn-link">Lihat</a>
+      </div>
+    </div>
   </main>
 
-  <script src="artikel.js"></script>
 </body>
 </html>
