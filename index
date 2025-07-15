@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>RTM DIMZ | DIASZ</title>
+  <title>ARTIKEL GHIYAS</title>
   <style>
     * {
       margin: 0;
@@ -34,7 +34,6 @@
 
     .rtm { color: #00fff2; text-shadow: 0 0 8px #00fff2; }
     .diasz { color: #ff4dff; text-shadow: 0 0 8px #ff4dff; }
-    .dimz { color: #ffaa00; text-shadow: 0 0 8px #ffaa00; }
 
     nav.menu-header {
       position: absolute;
@@ -160,8 +159,7 @@
 
   <header>
     <h1>
-      <span class="rtm">RTM</span> <span class="diasz">DIASZ</span> | 
-      <span class="dimz">DIMZ</span>
+      <span class="rtm">ARTIKEL</span> <span class="diasz">GHIYAS</span>
     </h1>
     <nav class="menu-header">
       <a href="#uic-section" class="active">UIC</a>
@@ -189,101 +187,15 @@
     </div>
 
    <!-- SENJATA SECTION -->
-<div class="product-list hidden" id="senjata-section">
+<div class="product-list hidden" id="artikel-section">
   <div class="product-card">
-    <h2>Dessert Eagle</h2>
-    <p>300 AMMO = 10.000 OOC<br>1K AMMO = 20.0000 OOC<br>3K AMMO = 50.000 OOC<br>DAN SETERUSNYA</p>
-    <button id="senjata1">Beli</button>
-    <p id="senjata-1"></p>
-  </div>
-  <div class="product-card">
-    <h2>Silenced Pistol</h2>
-    <p>700 AMMO = 10.000 OOC<br>2K AMMO = 20.000 OOC<br>5K AMMO = 50.000 OOC<br>DAN SETERUSNYA</p>
-    <button id="senjata2">Beli</button>
-    <p id="senjata-2"></p>
-  </div>
-  <div class="product-card">
-    <h2>Riffle</h2>
-    <p>500 AMMO = 10.000 OOC<br>1K AMMO = 20.000 OOC<br>3K AMMO = 50.000 OOC<br>DAN SETERUSNYA</p>
-    <button id="senjata3">Beli</button>
-    <p id="senjata-3"></p>
-  </div>
-  <div class="product-card">
-    <h2>Shoutgun</h2>
-    <p>300 AMMO = 10.000 OOC<br>1K AMMO = 20.000 OOC<br>3K AMMO = 50.000 OOC<br>DAN SETERUSNYA</p>
-    <button id="senjata4">Beli</button>
-    <p id="senjata-4"></p>
-  </div>
-  <div class="product-card">
-    <h2>AK47</h2>
-    <p>300 AMMO = 10.000 OOC<br>1K AMMO = 20.000 OOC<br>3K AMMO = 50.000 OOC<br>DAN SETERUSNYA</p>
-    <button id="senjata5">Beli</button>
-    <p id="senjata-5"></p>
+    <h2>Artikel Tentang IP ADDRES</h2>
+    <button id="artikel1">Lihat</button>
+    <p id="artikel-1"></p>
   </div>
 </div>
-
-    <!-- ITEM SECTION -->
-    <div class="product-list hidden" id="item-section">
-      <div class="product-card">
-        <h2>Kevlar</h2>
-        <p>40 KEVLAR = 10.000 OOC <BR> 90 KEVLAR = 20K</p>
-        <button id="item-kevlar">Beli</button>
-        <p id="stok-kevlar"></p>
-      </div>
-      <div class="product-card">
-        <h2>Marjun</h2>
-        <p>150 MARJUN = 10.000 OOC <br> 350 MARJUN = 20.000 OOC</p>
-        <button id="item-marjun">Beli</button>
-        <p id="stok-marjun"></p>
-      </div>
-      <div class="product-card">
-  <h2>Perban</h2>
-  <p>150 PERBAN = 10.000 OOC<br>350 PERBAN = 20.000 OOC</p>
-  <button id="item-perban">Beli</button>
-  <p id="stok-perban"></p>
-</div>
-      <div class="product-card">
-  <h2>Pil Stress</h2>
-  <p>100 PIL = 10.000 OOC<br>220 PIL = 20.000 OOC</p>
-  <button id="item-pil">Beli</button>
-  <p id="stok-pil"></p>
-</div>
-      <div class="product-card">
-  <h2>Makan & Minum</h2>
-  <p>500 MAKAN + 500 MINUM = 10.000 OOC</p>
-  <button id="item-makanminum">Beli</button>
-  <p id="stok-makanminum"></p>
-</div>
-    </div>
-
- <div class="product-list hidden" id="paket-section">
-   <div class="product-card">
-  <h2>PAKET SOTOT 1</h2>
-  <p>1K AMMO 50 PERBAN 75 MARJUN = 15.000 OOC</p>
-  <button id="item-sotot1">Beli</button>
-  <p id="stok-sotot1"></p>
-</div>
-      <div class="product-card">
-  <h2>PAKET SOTOT 2</h2>
-  <p>1K AMMO 150 PERBAN 100 MARJUN = 20.000 OOC</p>
-  <button id="item-sotot2">Beli</button>
-  <p id="stok-sotot2"></p>
-      </div>
-      <div class="product-card">
-  <h2>PAKET SOTOT 3</h2>
-  <p>2K AMMO 150 PERBAN 150 MARJUN 10 KEVLAR = 30.000 OOC</p>
-  <button id="item-sotot3">Beli</button>
-  <p id="stok-sotot3"></p>
-      </div>
-      <div class="product-card">
-  <h2>PAKET SOTOT SULTAN</h2>
-  <p>3K AMMO 500 RIFFLE 300 MARJUN 150 PERBAN 20 KEVLAR = 50.000 OOC</p>
-  <button id="item-sotot4">Beli</button>
-  <p id="stok-sotot4"></p>
-      </div>
- </div>
   </main>
 
-  <script src="stock.js"></script>
+  <script src="artikel.js"></script>
 </body>
 </html>
